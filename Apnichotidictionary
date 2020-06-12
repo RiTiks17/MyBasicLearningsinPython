@@ -1,0 +1,7 @@
+dictionary = {"collection":"The action or process of collecting someone or something.",
+        "sequence":"a particular order in which related things follow each other.",
+        "linear":"arranged in or extending along a straight or nearly straight line.",
+        "arrange":"put (things) in a neat, attractive, or required order."}
+print("Enter the word form this dictionary, whose meaning you want.")
+a = input()
+print("It means that,",dictionary.get(a))
