@@ -1,0 +1,17 @@
+n = 19
+while(True):
+    print("Enter the number")
+    num = int(input())
+    if num == 19:
+        print("Perfect Guess!")
+        break
+    elif num < 19:
+        print("Take the bigger number...\n")
+        continue
+        num = num + 1
+        break
+    elif num > 19:
+        print("Take the lesser number...\n")
+        continue
+        num = num + 1
+        break
